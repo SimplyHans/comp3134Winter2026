@@ -1,0 +1,4 @@
+- A server port is a virtual communication endpoint on a server that directs incoming network traffic to the correct application or service.
+- A server port range refers to the different segments which are used to identify specific applications or services on a server.
+- It uses 16 bits.
+- Ten common server ports include 80 (HTTP), 443 (HTTPS), 22 (SSH), 21 (FTP), 25 (SMTP), 53 (DNS), 110 (POP3), 143 (IMAP), 3306 (MySQL), and 3389 (RDP).
