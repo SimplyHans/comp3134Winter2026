@@ -1,0 +1,5 @@
+traceroute to 167.99.184.155 (167.99.184.155), 30 hops max, 60 byte packets
+ 1  comp3134-Winter2026 (167.99.184.155)  0.039 ms  0.010 ms  0.049 ms
+root@comp3134-Winter2026:~# traceroute 167.99.184.155
+traceroute to 167.99.184.155 (167.99.184.155), 30 hops max, 60 byte packets
+ 1  comp3134-Winter2026 (167.99.184.155)  0.036 ms  0.012 ms  0.009 ms

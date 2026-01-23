@@ -1,0 +1,48 @@
+id: 21972
+opcode: QUERY
+status: NOERROR
+flags: QR RD RA CD
+;; QUESTION SECTION:
+;apple.com.		IN A
+;; ANSWER SECTION:
+apple.com.		76 IN A	17.253.144.10
+
+id: 55373
+opcode: QUERY
+status: NOERROR
+flags: QR RD RA CD
+;; QUESTION SECTION:
+;google.com.		IN A
+;; ANSWER SECTION:
+google.com.		174 IN A 142.250.176.206
+
+id: 31203
+opcode: QUERY
+status: NOERROR
+flags: QR RD RA CD
+;; QUESTION SECTION:
+;samsung.com.		IN A
+;; ANSWER SECTION:
+samsung.com.		61 IN A	211.45.27.231
+
+id: 59972
+opcode: QUERY
+status: NOERROR
+flags: QR RD RA CD
+;; QUESTION SECTION:
+;supercell.com.		IN A
+;; ANSWER SECTION:
+supercell.com.		60 IN A	108.138.106.103
+supercell.com.		60 IN A	108.138.106.47
+supercell.com.		60 IN A	108.138.106.32
+supercell.com.		60 IN A	108.138.106.125
+
+id: 22072
+opcode: QUERY
+status: NOERROR
+flags: QR RD RA CD
+;; QUESTION SECTION:
+;openai.com.		IN A
+;; ANSWER SECTION:
+openai.com.		1 IN A	172.64.154.211
+openai.com.		1 IN A	104.18.33.45
