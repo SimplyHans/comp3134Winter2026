@@ -1,0 +1,5 @@
+18:02:11.327854 IP 172.21.212.82.36714 > a23-223-17-202.deploy.static.akamaitechnologies.com.http: Flags [S], seq 236841980, win 64240, options [mss 1460,sackOK,TS val 122650185 ecr 0,nop,wscale 7], length 0
+18:02:11.330598 IP a23-223-17-202.deploy.static.akamaitechnologies.com.http > 172.21.212.82.36714: Flags [S.], seq 1775808576, ack 236841981, win 65160, options [mss 1250,sackOK,TS val 983180045 ecr 122650185,nop,wscale 7], length 0
+18:02:11.330956 IP 172.21.212.82.36714 > a23-223-17-202.deploy.static.akamaitechnologies.com.http: Flags [.], ack 1, win 502, options [nop,nop,TS val 122650188 ecr 983180045], length 0
+18:02:11.340096 IP 172.21.212.82.36714 > a23-223-17-202.deploy.static.akamaitechnologies.com.http: Flags [F.], seq 1, ack 1, win 502, options [nop,nop,TS val 122650198 ecr 983180045], length 0
+18:02:11.345357 IP a23-223-17-202.deploy.static.akamaitechnologies.com.http > 172.21.212.82.36714: Flags [F.], seq 1, ack 2, win 510, options [nop,nop,TS val 983180058 ecr 122650198], length 0

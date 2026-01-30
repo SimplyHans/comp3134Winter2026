@@ -1,0 +1,5 @@
+17:52:37.420120 IP 172.21.212.82.43025 > prod-ntp-5.ntp1.ps5.canonical.com.ntp: NTPv4, Client, length 48
+17:52:37.510265 IP prod-ntp-5.ntp1.ps5.canonical.com.ntp > 172.21.212.82.43025: NTPv4, Server, length 48
+17:53:09.203783 IP6 fe80::fabf:c83a:6378:af37.49350 > ff02::c.3702: UDP, length 656
+17:53:09.204108 IP DESKTOP-FG3L0L9.mshome.net.49349 > 239.255.255.250.3702: UDP, length 656
+17:53:09.320520 IP6 fe80::fabf:c83a:6378:af37.49350 > ff02::c.3702: UDP, length 656
