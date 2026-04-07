@@ -1,0 +1,3 @@
+The secured form works because it includes a session token.
+The attack page fails because it does not have the correct token.
+This prevents unauthorized requests.

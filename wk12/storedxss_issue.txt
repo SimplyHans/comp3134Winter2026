@@ -1,0 +1,3 @@
+The application outputs stored data without sanitization.
+This allows execution of malicious scripts.
+It can redirect users or steal data.
