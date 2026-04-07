@@ -1,0 +1,11 @@
+1) Input: Ben
+
+When the value “Ben” was entered into the form, no results were displayed on the webpage. This is expected behavior. Although a user with firstname “Ben” exists in the database, their active value is set to 0. The SQL query used in the application filters results where active = 1. Since the condition is not satisfied, the record is excluded from the result set and no rows are returned.
+
+2) Input: Ben'--
+
+When the input “Ben'--” was submitted, the SQL query was manipulated due to the use of a single quote and comment syntax. The double dash (--) indicates a comment in SQL, which causes the rest of the query to be ignored. As a result, the condition checking for active = 1 was bypassed. This allows the query to return results for firstname = 'Ben' even though the record has active = 0. This demonstrates a successful SQL injection attack using comment-based injection.
+
+3) Input: Ben' or 1=1
+
+When the input “Ben' or 1=1” was entered, the SQL query was modified to always evaluate as true due to the condition 1=1. This causes the WHERE clause to become logically true for all rows that meet any remaining conditions. As a result, the query may return multiple records where active = 1, effectively bypassing the intended filtering. This demonstrates a Boolean-based SQL injection attack that allows unauthorized data access by manipulating the query logic.
